@@ -8,7 +8,7 @@ from tqdm import tqdm
 # =====================================================================
 # 설정 (Configuration)
 # =====================================================================
-TARGET_DIR = r"e:\python\유용한 글들"
+TARGET_DIR = os.path.dirname(os.path.abspath(__file__))
 DOCS_DIR = os.path.join(TARGET_DIR, "Documents")
 OUTPUT_HTML = os.path.join(TARGET_DIR, "ontology_visual_map.html")
 OUTPUT_MD = os.path.join(TARGET_DIR, "ontology_map_tags.md")
