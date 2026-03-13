@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Output
+ontology_visual_map.html
+
+# OS
+.DS_Store
+Thumbs.db
